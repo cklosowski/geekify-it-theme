@@ -1,0 +1,96 @@
+/*
+Theme Name: Geekify It Theme
+Theme URI: https://geekify.it
+Description: Custom Theme for the Geekify.it website
+Author: Filament Studios
+Author URI: https://filament-studios.com.com/
+Template: vendd
+Version: 0.1
+*/
+
+@import url("../vendd/style.css");
+
+.edd-submit.button.blue {
+    background: #3a5975;
+}
+
+.edd-alert {
+    text-align: center;
+}
+
+#edd_final_total_wrap {
+    text-align: center;
+    font-size: 1.5em;
+    color: #43883C !important;
+}
+
+#edd_checkout_form_wrap select.edd-select {
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+}
+
+#edd_checkout_user_info p,
+#edd_cc_address p {
+    width: 48%;
+    display: inline-block;
+}
+
+#edd_secure_site_wrapper { display: none; }
+
+.social-links { font-size: 1.25em }
+
+.geek-cred-nav-balance-wrap {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.geek-cred-nav-balance-wrap a {
+    margin-right: 15px;
+}
+
+.geek-cred-coin-small {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.whistles {
+    font-family: inherit;
+}
+
+.whistles-tabs .whistles-tabs-nav li a {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.edd-points-user-log h4 {
+    font-size: 1.5em;
+}
+
+#edd_points_apply_discount {
+    padding: 6px 12px;
+}
+
+@media all and ( max-width: 860px ) {
+    body { zoom: 1; }
+
+    .geek-cred-nav-balance-wrap {
+        background: none;
+        border-radius: none;
+    }
+
+    #edd_checkout_user_info p,
+    #edd_cc_address p {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
